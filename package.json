@@ -1,0 +1,26 @@
+{
+  "name": "whatsapp-group-moderator",
+  "version": "1.0.0",
+  "description": "A WhatsApp bot to moderate group chats by deleting links, abusive content, and explicit media from non-admins.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "moderator"
+  ],
+  "author": "Gemini",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.2",
+    "axios": "^1.7.2",
+    "form-data": "^4.0.0",
+    "pino": "^9.1.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
